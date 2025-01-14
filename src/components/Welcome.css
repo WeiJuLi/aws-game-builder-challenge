@@ -1,0 +1,107 @@
+.welcome {
+  background-color: #a4ddda;
+  width: 100vw;
+  height: 100vh; 
+}
+
+.welcome-content {
+  position: relative; 
+  top: 40px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome-content img {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+}
+
+.cat_demo {
+  position: absolute;
+  top: 48%; 
+  left: 50%;
+  max-width: 120px;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  z-index: 10;
+  animation: cat 2s infinite ease-in-out;
+}
+
+@keyframes cat {
+  0% {
+    transform: translate(-50%, -50%) scale(1); 
+    opacity: 1; 
+  }
+  25% {
+    transform: translate(-50%, -100%) scale(1); 
+    opacity: 1; 
+  }
+  35% {
+    transform: translate(-50%, -50%) scale(1); 
+    opacity: 1; 
+  }
+  40% {
+    transform: translate(-50%, -50%) scale(1, 0.3); 
+    opacity: 1; 
+  }
+  60% {
+    transform: translate(-50%, -50%) scale(1); 
+    opacity: 1; 
+  }
+  70% {
+    transform: translate(-50%, -50%) scale(1); 
+    opacity: 0.5; 
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1); 
+    opacity: 1; 
+  }
+}
+
+button { 
+  position: absolute;
+  top: 65%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+button img {
+  max-width: 200px; 
+  height: auto;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1); 
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2); 
+  }
+}
+
+.permission-guide {
+  position: absolute;
+  top: 28%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  z-index: 10;
+}
+
+.permission-guide li{
+  color: yellow;
+}

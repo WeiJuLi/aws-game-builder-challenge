@@ -1,0 +1,60 @@
+.canvas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  width: 100vw;
+  height: 100vh; 
+  background-color: #405b52; 
+}
+
+.camera {
+  padding: 40px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #a4ddda;
+}
+
+.video-stream {
+  margin: 20px; 
+  align-content: center;
+  width: 160px; 
+  height: 120px; 
+  border: 2px solid white; 
+}
+
+.score {
+  margin: 20px;
+  align-content: center;
+  font-weight: bold;
+  font-size: 70%;
+}
+
+#game-container {
+  width: 100vw;
+  height: 600px; 
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
+.crash-image {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  opacity: 0; 
+  transition: opacity 0.5s ease-in-out; 
+  z-index: 20; 
+}
+
+.crash-image img {
+  width: 150px;
+}
+
+
+.crash-image.show {
+  opacity: 1;
+}

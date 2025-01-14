@@ -1,0 +1,13 @@
+{
+  "frames": {
+    "cat_run_1": { "frame": { "x": 10, "y": 10, "w": 500, "h": 500 } },
+    "cat_run_2": { "frame": { "x": 530, "y": 10, "w": 500, "h": 500 } },
+    "cat_slide": { "frame": { "x": 1050, "y": 10, "w": 500, "h": 500 } },
+    "cat_fat": { "frame": { "x": 1570, "y": 10, "w": 500, "h": 500 } },
+    "cat_slim": { "frame": { "x": 2090, "y": 10, "w": 500, "h": 500 } }
+  },
+  "meta": {
+    "image": "sprite_sheet_cat.png",
+    "size": { "w": 2600, "h": 520 }
+  }
+}
